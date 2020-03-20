@@ -63,9 +63,5 @@ module.exports = function toReadable(number) {
     return (hundreds + decimalPart + singlePart).trim();
 }
 
-/*
-singleRanks[+(((''+number).split(''))[0])];
-let decimalPart = ((''+number).split(''))[1] ? tenRanks[+(((''+number).split(''))[1])]+ ' ' : '' let hundreds = ((''+number).split(''))[2] ? singleRanks[+(((''+number).split(''))[0])] + ' hundred ' : '';
-return hundreds + decimalPart + singlePart;
-*/
+
 
